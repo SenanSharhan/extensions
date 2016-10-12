@@ -1,5 +1,5 @@
 {
-	"name": "SenanSharhan/extensions",
+	"name": "senansharhan/extensions",
 	"description": "extend the Sonic SDK and adding Album and MediaItem objects",
 	"version": "0.0.1",
 	"license": "MIT",
@@ -12,7 +12,7 @@
 	{
 		"psr-4":
 		{
-			"sgoendoer\\extensions\\": "src/"
+			"senansharhan\\extensions\\": "src/"
 		}
 	}
 }
