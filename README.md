@@ -20,11 +20,11 @@ or configure your composer.json accordingly
     use senansharhan\extensions\src\Model\MediaItemObjectBuilder;
     
      $MediaItemObject = (new MediaItemObjectBuilder())
-                    ->objectID(UOID::createUOID())
-                    ->targetID($albumID)
-                    ->mimetype($image->getClientMimeType())
+                    ->objectID("15P67P1BMDKE6J9OQC8IVT7PSIFW4M094AE2MG1LWJD6MO8GUP:1e082f14b9e4462e")
+                    ->targetID("15P67P1BMDKE6J9OQC8IVT7PSIFW4M094AE2MG1LWJD6MO8GUP:56dcdaff4a03d135")
+                    ->mimetype("image/jpeg")
                     ->type("image")
-                    ->url(Auth::user()->socialrecord->profileLocation . 'albums/' . $filename)
+                    ->url("sonic.com/api/albums/image1.jpg")
                     ->build();
 
 ```
