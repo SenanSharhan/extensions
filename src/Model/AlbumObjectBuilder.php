@@ -1,5 +1,5 @@
 <?php
-namespace sgoendoer\sonic\src\Model;
+namespace senansharhan\extensions\src\Model;
 /**
  * Builder class for a Album object
  * version 1
@@ -9,6 +9,7 @@ namespace sgoendoer\sonic\src\Model;
  */
 
 require __DIR__ . '/AlbumObject.php';
+use senansharhan\extensions\src\Model\AlbumObject;
 use sgoendoer\Sonic\Date\XSDDateTime;
 use sgoendoer\Sonic\Identity\GID;
 use sgoendoer\Sonic\Identity\UOID;

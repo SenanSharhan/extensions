@@ -1,5 +1,5 @@
 <?php
-namespace sgoendoer\sonic\src\Model;
+namespace senansharhan\extensions\src\Model;
 
 /**
  * Builder class for a Album object
@@ -9,9 +9,8 @@ namespace sgoendoer\sonic\src\Model;
  * copyright: Senan Sharhan <senan.sharhan@hotmail.com>
  */
 
-
-require __DIR__.'/MediaItemObject.php';
-
+require __DIR__ . '/MediaItemObject.php';
+use senansharhan\extensions\src\Model\MediaItemObject;
 use sgoendoer\Sonic\Date\XSDDateTime;
 use sgoendoer\Sonic\Identity\UOID;
 use sgoendoer\Sonic\Model\IllegalModelStateException;

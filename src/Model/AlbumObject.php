@@ -1,5 +1,5 @@
 <?php
-namespace sgoendoer\sonic\src\Model;
+namespace senansharhan\extensions\src\Model;
 
 /**
  * Builder class for a Album object
