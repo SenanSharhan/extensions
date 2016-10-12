@@ -24,7 +24,7 @@ or configure your composer.json accordingly
                     ->targetID("15P67P1BMDKE6J9OQC8IVT7PSIFW4M094AE2MG1LWJD6MO8GUP:56dcdaff4a03d135")
                     ->mimetype("image/jpeg")
                     ->type("image")
-                    ->url("sonic.com/api/albums/image1.jpg")
+                    ->url("exampel.com/api/albums/image1.jpg")
                     ->build();
 
 ```
