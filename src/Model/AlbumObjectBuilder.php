@@ -9,6 +9,7 @@ namespace senansharhan\extensions\src\Model;
  */
 
 require __DIR__ . '/AlbumObject.php';
+use Illuminate\Support\Facades\Log;
 use senansharhan\extensions\src\Model\AlbumObject;
 use sgoendoer\Sonic\Date\XSDDateTime;
 use sgoendoer\Sonic\Identity\GID;
@@ -38,7 +39,6 @@ class AlbumObjectBuilder extends ObjectBuilder
     {
 
         $jsonObject = json_decode($json);
-
         $builder = (new AlbumObjectBuilder())
             ->objectID($jsonObject->objectID)
             ->owner($jsonObject->owner)
