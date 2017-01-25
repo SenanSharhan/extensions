@@ -1,5 +1,5 @@
 # extensions
-extensions for the Sonic SDK
+extensions for the [Sonic SDK](https://github.com/sgoendoer/sonic)
 this includes
 
 MediaItem Object
